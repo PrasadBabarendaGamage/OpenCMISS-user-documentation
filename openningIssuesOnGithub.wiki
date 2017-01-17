@@ -1,0 +1,13 @@
+Submitting new issues on github
+This is a guide on how to submit an item to the OpenCMISS tracker, the information to include on the tracker, and on how to add the item to the OpenCMISS tracker dependency tree.
+Items to the OpenCMISS tracker can be submitted using: Submitting a new Tracker item
+You will need to first make a login to the tracker, using the 'create a new account' link.
+Once you have created an account, use the link above to make a new tracker item. Include in this new tracker item (if possible):
+- A description of the change to be made
+- The general area of the code the change will need to be made in
+- Any progress that has been made on the change to date (if relevant)
+- Any pre-requisite functionality not currently in OpenCMISS required for the change
+- Any other relevant information, for example references of relevant papers
+- The conditions necessary for the change to be signed off and the item closed, i.e. what testing conditions need to be satisfied
+You can change the severity field in the new tracker item from the default of 'feature', to whatever you deem the severity.
+Once the item has been submitted the item, I would suggest that you assign the item to yourself. The item you are adding can for moment be added in the tree under 'Release 0.5' item 1237. To do this, add the tracker ID 1237 in the 'blocks' field of the new tracker item you have submitted.
